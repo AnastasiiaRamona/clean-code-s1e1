@@ -33,6 +33,10 @@ body {
   margin: 0 auto 0;
 }
 
+.dashboard__hidden-heading {
+  display: none;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -50,7 +54,7 @@ body {
 }
 
 .task-list li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -75,7 +79,7 @@ button:hover {
 }
 
 /* Heading styles */
-h3,
+h2,
 label .new-task {
   color: #333;
   font-weight: 700px;
