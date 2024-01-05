@@ -36,7 +36,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -139,7 +139,7 @@ input#new-task {
 }
 
 .task-list li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 /* Delete button styles */
@@ -155,18 +155,18 @@ button.delete img:hover {
 
 /* Completed styles */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task styles */
 .task-list li input[type=text] {
-  display: none
+  display: none;
 }
 
 .task-list li.edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list li.edit-mode label {
