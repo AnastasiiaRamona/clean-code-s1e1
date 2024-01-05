@@ -45,17 +45,17 @@ body {
 
 /* Task styles */
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task-list li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 /* Input and button styles */
 input,button{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -161,14 +161,14 @@ button.delete img:hover {
 
 /* Edit Task styles */
 .task-list li input[type=text] {
-  display:none
+  display: none
 }
 
 .task-list li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list li.edit-mode label {
-  display:none;
+  display: none;
 }
